@@ -1,0 +1,194 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    /*background-color: #3498db;*/
+    background-color: #67aecb;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    /*background-color: #f39c12;*/
+    background-color: #2196F3;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    /*background-color: #e74c3c;*/
+    background-color: #4444FF;
+    border-radius: 20px;
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+div.container section {
+    display: flex;
+
+}
+
+.article {
+    /*width: 32%;*/
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1%;
+    box-sizing: border-box;
+    padding: 20px;
+    /*background-color: #ecf0f1;*/
+    background-color: #4fff093c;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+
+.article p {
+   text-align: center;
+   margin-top: 10px;
+}
+
+.article img {
+    max-width: 150px;
+    max-height: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.read-more {
+    text-align: right;
+    margin-top: 10px;
+}
+
+section.image-section {
+    position: relative;
+    text-align: center;
+    margin-top: 30px;
+}
+
+section.image-section img {
+    max-width: 100%;
+    height: auto;
+    opacity: 0.7;
+    width: 100%;
+}
+
+section.image-section .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #201e20;
+    
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+footer img {
+    max-width: 150px;
+    height: auto;
+    display: inline-block;
+    margin: 0 10px;
+}
+/*
+footer .logo-utp {
+    position: relative;
+    right: 580px;
+}
+
+footer .logo-fisc {
+    position: relative;
+    left: 580px;
+}*/
+
+@media(max-width: 480px) {
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0px;
+      text-align: center;
+      margin: 0px;
+    }
+
+    nav a {
+        margin:auto;
+    }
+
+    nav a span {
+        display: none;
+    }
+  
+    div.container section{
+      display: flex;
+      flex-direction: column;
+
+    }
+
+    section.image-section .image-text {
+        width: 100%;
+    }
+  }
+
+  @media(max-width: 768px) {
+    nav {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 5px 0px;
+      text-align: center;
+      margin: 0px;
+    }
+
+    .article {
+        width: 80%;
+    }
+
+    nav a {
+        padding: 10px auto;
+        margin: 10px;
+    }
+  
+    div.container section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+    }
+
+    div.image-text{
+        width: 100%;
+    }
+  }
+
+  a:hover {
+    text-decoration: underline;
+
+  }

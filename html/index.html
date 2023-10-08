@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laboratorio 6</title>
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Laboratorio 6</h1>
+        <p>1. Un menu de navegacion colocado horizontalmente, cada enlace del menu debe tener un color de fondo, bordes
+            redondeados y relleno para que vea visualmente agradable (20 pts)</p>
+        <p>2. Un encabezado con el titulo del laboratorio y su informacion (Adecuado visualmente a su manera). (20 pts)
+        </p>
+        <p>3. Una seccion compuesta de 3 articulos, cada uno posee una imagen de 150x150px y una breve descripcion que
+            sobrepasa el tamaño del contenedor para cortarlo con un enlace simulando el efecto de "ver mas". CADA
+            ARTICULO DEBE ESTAR AL LADO DEL OTRO COMO UN CONJUNTO DE 3 COLUMNAS. (20 pts)</p>
+        <p>4. Una seccion con una imagen alargada horizontalmente con un texto sobre ella explicando la imagen. (Buscar
+            efecto para opacar la imagen y permitir que el texto se visualice). (20 pts)</p>
+        <p>5. Un pie de pagina con el logo de la UTP a la izquierda y el logo de la FISC a la derecha con un tamaño de
+            150x150px (20 pts)</p>
+    </header>
+    <nav>
+        <a href="#" alt="hi">Inicio</a>
+        <a href="#">Biologia</a>
+        <a href="#" alt="Todo sobre las aves"><span>Todo Sobre Las</span> Aves</a>
+        <a href="#">Tipos <span>De Aves</span></a>
+    </nav>
+    <div class="container">
+        <section>
+            <div class="article">
+                <img src="../asset/rapaces.webp" alt="Imagen 1">
+                <p>Las Rapaces</p>
+                <p>Este grupo de aves posee picos afilados y patas poderosas, provista de grandes garras, con las que
+                    cazan activamente a sus presas.</p>
+                <div class="read-more"><a href="#">Ver más</a></div>
+            </div>
+            <div class="article">
+                <img src="../asset/las corredoras.jpg" alt="Imagen 2">
+                <p>Las Corredoras</p>
+                <p>De gran tamaño, las aves corredoras han perdido la capacidad de volar, pero pueden correr velozmente
+                    gracias a sus potentes patas.</p>
+                <div class="read-more"><a href="#">Ver más</a></div>
+            </div>
+            <div class="article">
+                <img src="../asset/zacundas.jpg" alt="Imagen 3">
+                <p>Las Zacundas</p>
+                <p>Son aves esbeltas, con el pico y las patas alargadas, como por ejemplo la cigüeña, la garza, ibis y
+                    la grulla.</p>
+                <div class="read-more"><a href="#">Ver más</a></div>
+            </div>
+        </section>
+        <section class="image-section">
+            <img src="../asset/dodo.jpg" alt="Imagen alargada">
+            <div class="image-text">
+                <h1>El pajaro Dodo</h1>
+                <p>El pájaro Dodo es una especie de ave extinta que destaca por ser una de las más conocidas. Esta ave
+                    pertenecía a las aves columbiformes dentro de la subfamilia de las Raphinae. Destacaba por tener una
+                    forma realmente graciosa y por ser un ave no voladora, sin olvidar que la misma es conocida también
+                    bajo el nombre científico Raphus cucullatus.</p>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <img class="logo-utp" src="../asset/utp.png" alt="Logo UTP">
+        <img class="logo-fisc" src="../asset/fisc.png" alt="Logo FISC">
+    </footer>
+</body>
+
+</html>
